@@ -51,7 +51,7 @@ $.ajax({
 
 }
 
-$('form').on('submit', '.validate', function(e) {
+$('form').on('submit', function(e) {
 
 	e.preventDefault();
 
@@ -62,9 +62,12 @@ $('form').on('submit', '.validate', function(e) {
 
 	albumSearch(title);
 
-  if (!_token) {
-  window.location = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join('%20')}&response_type=token&show_dialog=true`;
-}
+  var spotifyButton = $('<button>');
+  spotifyButton.
+
+//   if (!_token) {
+//   window.location = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join('%20')}&response_type=token&show_dialog=true`;
+// }
 
 	// If there is no token, redirect to Spotify authorization
 
