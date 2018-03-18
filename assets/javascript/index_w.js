@@ -67,6 +67,9 @@ $('form').on('submit', function(e) {
   spotifyButton.addClass('waves-effect waves-dark #e0e0e0 btn grey lighten-2 black-text text-darken-2');
   $('#spotify').append(spotifyButton);
 
+  localStorage.clear();
+  localStorage.setItem('movie', title);
+
 });
 
 
