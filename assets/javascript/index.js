@@ -1,2 +1,0 @@
-// SCORETREK Javascript
-
