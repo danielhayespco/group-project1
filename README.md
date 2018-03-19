@@ -1,2 +1,2 @@
-# group-project1
-M-W Group Project 1
+# testRepo
+Need to deploy to static web page to test project functionality
