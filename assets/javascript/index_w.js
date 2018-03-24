@@ -53,7 +53,7 @@ var someFunction = function(title){
 
         // let movie = $('#text').val().trim();
         // console.log(movie);
-        let queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy";
+        let queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=full&apikey=trilogy";
             $.ajax({
             url: queryURL,
             method: "GET"
